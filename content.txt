@@ -1,0 +1,19 @@
+------------------------------4ebf00fbcf09
+Content-Disposition: form-data; name="file"; filename="sfdl-1.0-RC3.zip"
+Content-Type: application/zip
+
+
+------------------------------4ebf00fbcf09
+Content-Disposition: form-data; name="muleVersion"
+
+3.3.0
+------------------------------4ebf00fbcf09
+Content-Disposition: form-data; name="workers"
+
+1
+------------------------------4ebf00fbcf09
+Content-Disposition: form-data; name="properties.mule.env"
+
+qa
+
+------------------------------4ebf00fbcf09--
