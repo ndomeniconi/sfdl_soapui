@@ -1,0 +1,54 @@
+Status: UNKNOWN
+Time Taken: 1420
+Size: 0
+Timestamp: Mon Aug 06 17:43:49 GMT-03:00 2012
+TestStep: Logout
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: https://sfdataloader-load.muleion.com:443/api/logout
+URL: https://sfdataloader-load.muleion.com:443/api/logout
+
+---------------- Request ---------------------------
+Cookie: [__utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207; SESSION_ID=5aefbfda-e007-11e1-a586-67e4910feddd]
+X-Requested-With: [XMLHttpRequest]
+Host: [sfdataloader-load.muleion.com:443]
+Content-Length: [0]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Accept-Language: [es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3]
+Accept-Encoding: [gzip,deflate]
+Referer: [https://sfdataloader-load.muleion.com/static/]
+Content-Type: [application/json; charset=UTF-8]
+Accept: [application/json, text/javascript, */*; q=0.01]
+
+POST https://sfdataloader-load.muleion.com:443/api/logout HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept-Language: es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3
+Cookie: __utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207; SESSION_ID=5aefbfda-e007-11e1-a586-67e4910feddd
+X-Requested-With: XMLHttpRequest
+Referer: https://sfdataloader-load.muleion.com/static/
+Content-Type: application/json; charset=UTF-8
+Accept: application/json, text/javascript, */*; q=0.01
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Host: sfdataloader-load.muleion.com:443
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Mon, 06 Aug 2012 20:43:49 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [0]
+Set-Cookie: [SESSION_ID=null; Path=/; Secure; Expires=Mon, 6-Aug-2012 20:43:47 GMT, CSRF_TOKEN=null; Path=/; Secure; Expires=Mon, 6-Aug-2012 20:43:47 GMT]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.2.2]

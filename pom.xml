@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>org.mulesoft</groupId>
+    <artifactId>dataloader-rest-automation</artifactId>
+    <version>1.0</version>
+    <name>DataLoader REST API test</name>
+
+	<pluginRepositories>
+   		<pluginRepository>
+      		<id>eviwarePluginRepository</id>
+      		<url>http://www.eviware.com/repository/maven2/</url>
+   		</pluginRepository>
+	</pluginRepositories>
+  <build>  
+    <plugins>
+		    <plugin>
+				<groupId>eviware</groupId>
+				<artifactId>maven-soapui-pro-plugin</artifactId>
+				<version>4.5.1</version>
+				  <dependencies>
+                    <dependency>
+                        <groupId>net.sourceforge.htmlunit</groupId>
+                        <artifactId>htmlunit</artifactId>
+                        <version>2.7</version>
+						<type>jar</type>
+                    </dependency>
+                </dependencies> 
+				<configuration>
+					<junitReport>true</junitReport>
+					<exportAll>true</exportAll>
+					<projectFile>${basedir}/testsfdl-soapui-project.xml</projectFile>
+					<settingsFile>${basedir}/soapui-settings.xml</settingsFile>
+					<outputFolder>${basedir}/target/soapui-reports</outputFolder>
+				</configuration>
+				<executions>
+					<execution>
+						<id>wsn-server-test</id>
+						<phase>test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>               
+	</plugins>
+  </build>
+</project>

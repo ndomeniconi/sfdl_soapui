@@ -1,0 +1,12 @@
+Status: FAILED
+Time Taken: 47
+Size: 0
+Timestamp: Mon Aug 06 17:48:34 GMT-03:00 2012
+TestStep: getTaskStatus
+Error:java.lang.RuntimeException: net.sf.saxon.trans.XPathException: XPath syntax error at char 23 on line 2 in {\n//Response//e[task_id=]//}:
+    Unexpected token "]" in path expression
+
+----------------- Messages ------------------------------
+java.lang.RuntimeException: net.sf.saxon.trans.XPathException: XPath syntax error at char 23 on line 2 in {\n//Response//e[task_id=]//}:
+    Unexpected token "]" in path expression
+error at line: 14

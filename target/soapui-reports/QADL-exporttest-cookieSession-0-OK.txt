@@ -1,0 +1,12 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Mon Aug 06 17:43:24 GMT-03:00 2012
+TestStep: cookieSession
+
+----------------- Messages ------------------------------
+Performed transfer [sessionValueId]
+Performed transfer [csfdTokenValue]
+----------------------------------------------------
+sessionValueId transferred [[5aefbfda-e007-11e1-a586-67e4910feddd]] from [#TestCase#.sessionIdValue] to [SessionPropeties.sessionId]
+csfdTokenValue transferred [[WujhA7bc3z8PbJg8xwDtMRDcRfiOTosiNnffZ4yS8t8nkMZzfGOFNurMvy4Clakc]] from [#TestCase#.csfdTokenValue] to [SessionPropeties.csfdTokenValue]

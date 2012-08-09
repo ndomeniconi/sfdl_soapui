@@ -1,0 +1,55 @@
+Status: UNKNOWN
+Time Taken: 2285
+Size: 0
+Timestamp: Mon Aug 06 17:46:56 GMT-03:00 2012
+TestStep: login-init
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: https://sfdataloader-load.muleion.com:443/api/login
+URL: https://sfdataloader-load.muleion.com:443/api/login
+
+---------------- Request ---------------------------
+Cookie: [__utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207]
+X-Requested-With: [XMLHttpRequest]
+Host: [sfdataloader-load.muleion.com:443]
+Content-Length: [100]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Pragma: [no-cache]
+Cache-Control: [no-cache]
+Accept-Language: [es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3]
+Accept-Encoding: [gzip,deflate]
+Referer: [https://sfdataloader-load.muleion.com/static/]
+Accept: [application/json, text/javascript, */*; q=0.01]
+Content-Type: [application/json; charset=UTF-8]
+
+POST https://sfdataloader-load.muleion.com:443/api/login HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept-Language: es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3
+Cookie: __utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207
+X-Requested-With: XMLHttpRequest
+Referer: https://sfdataloader-load.muleion.com/static/
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/json; charset=UTF-8
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Length: 100
+Host: sfdataloader-load.muleion.com:443
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Date: [Mon, 06 Aug 2012 20:46:57 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [0]
+Set-Cookie: [SESSION_ID=dbbbdb5b-e007-11e1-a586-67e4910feddd; Path=/; Secure; Expires=Mon, 6-Aug-2012 21:46:55 GMT, CSRF_TOKEN=AvIj6LV98GuD2BWf9Y7h8jsgzDucExHffRHMhW42201RJK10YKlsQkV5ZZzMZJXq; Path=/; Secure; Expires=Mon, 6-Aug-2012 21:46:55 GMT]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.2.2]

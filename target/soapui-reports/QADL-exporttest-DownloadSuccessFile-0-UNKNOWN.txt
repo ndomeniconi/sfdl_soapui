@@ -1,0 +1,52 @@
+Status: UNKNOWN
+Time Taken: 1940
+Size: 321
+Timestamp: Mon Aug 06 17:43:46 GMT-03:00 2012
+TestStep: DownloadSuccessFile
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 403
+Encoding: UTF-8
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: https://sfdl-load.s3.amazonaws.com/4/7117/6892/Contact Export AUT255-08_06_2012-14_04_15.csv?Expires=1344262766&AWSAccessKeyId=AKIAIZDIL7PYNBNZ35CA&Signature=f0oXIC3rrYGJLZmYUt3B9qMmkTU=
+URL: https://sfdl-load.s3.amazonaws.com/4/7117/6892/Contact%20Export%20AUT255-08_06_2012-14_04_15.csv?Expires=1344262766&AWSAccessKeyId=AKIAIZDIL7PYNBNZ35CA&Signature=f0oXIC3rrYGJLZmYUt3B9qMmkTU=
+
+---------------- Request ---------------------------
+Accept-Language: [es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3]
+Host: [sfdl-load.s3.amazonaws.com]
+Accept-Encoding: [gzip, deflate]
+Referer: [https://sfdataloader-load.muleion.com/static/]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]
+
+GET https://sfdl-load.s3.amazonaws.com/4/7117/6892/Contact%20Export%20AUT255-08_06_2012-14_04_15.csv?Expires=1344262766&AWSAccessKeyId=AKIAIZDIL7PYNBNZ35CA&Signature=f0oXIC3rrYGJLZmYUt3B9qMmkTU= HTTP/1.1
+Accept-Language: es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3
+Host: sfdl-load.s3.amazonaws.com
+Referer: https://sfdataloader-load.muleion.com/static/
+Accept-Encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+x-amz-request-id: [7FE65C97D23647A1]
+Date: [Mon, 06 Aug 2012 20:43:46 GMT]
+Transfer-Encoding: [chunked]
+#status#: [HTTP/1.1 403 Forbidden]
+x-amz-id-2: [YBqGNW2OZkvAr9IGrLy2ZJR2EhCr7qTHa5vglrHqpMOWUNyrrt8uDfqde7jAz0te]
+Content-Type: [application/xml]
+Server: [AmazonS3]
+
+<Error>
+   <Code>AccessDenied</Code>
+   <Message>Request has expired</Message>
+   <RequestId>7FE65C97D23647A1</RequestId>
+   <Expires>2012-08-06T14:19:26Z</Expires>
+   <HostId>YBqGNW2OZkvAr9IGrLy2ZJR2EhCr7qTHa5vglrHqpMOWUNyrrt8uDfqde7jAz0te</HostId>
+   <ServerTime>2012-08-06T20:43:48Z</ServerTime>
+</Error>

@@ -1,0 +1,24 @@
+Status: OK
+Time Taken: 1
+Size: 0
+Timestamp: Mon Aug 06 17:46:54 GMT-03:00 2012
+TestStep: UserData
+
+----------------- Messages ------------------------------
+Performed transfer [userSession]
+Performed transfer [userPwd]
+Performed transfer [tokenUser]
+Performed transfer [userIdValue]
+Performed transfer [pwdIdValue]
+Performed transfer [tokenIdValue]
+Performed transfer [rowNumberAccount]
+Performed transfer [rowAccountId]
+----------------------------------------------------
+userSession transferred [[nicolas.mondada@mulesoft.com.test]] from [DataSourceAccounts.username] to [SessionPropeties.userSession]
+userPwd transferred [[Datal0ader]] from [DataSourceAccounts.pwd] to [SessionPropeties.userPwd]
+tokenUser transferred [[bM9WpXD6MgU3zHqH1l1OvJCGp]] from [DataSourceAccounts.token] to [SessionPropeties.userToken]
+userIdValue transferred [[nicolas.mondada@mulesoft.com.test]] from [SessionPropeties.userSession] to [#TestCase#.userIdValue]
+pwdIdValue transferred [[Datal0ader]] from [SessionPropeties.userPwd] to [#TestCase#.pwdIdValue]
+tokenIdValue transferred [[bM9WpXD6MgU3zHqH1l1OvJCGp]] from [SessionPropeties.userToken] to [#TestCase#.tokenIdValue]
+rowNumberAccount transferred [[]] from [SessionPropeties.rowAccountId] to [#TestCase#.rowNumberAccount]
+rowAccountId transferred [[1]] from [DataSourceAccounts.rownum] to [SessionPropeties.rowAccountId]

@@ -1,0 +1,56 @@
+Status: UNKNOWN
+Time Taken: 1759
+Size: 27
+Timestamp: Mon Aug 06 17:47:09 GMT-03:00 2012
+TestStep: List Objects
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 401
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: https://sfdataloader-load.muleion.com:443/api/connections//objects
+URL: https://sfdataloader-load.muleion.com:443/api/connections//objects
+
+---------------- Request ---------------------------
+Accept-Language: [es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3]
+Cookie: [__utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207; SESSION_ID=dbbbdb5b-e007-11e1-a586-67e4910feddd]
+Host: [sfdataloader-load.muleion.com:443]
+X-Requested-With: [XMLHttpRequest]
+Referer: [https://sfdataloader-load.muleion.com/static/]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Content-Type: [application/json; charset=UTF-8]
+Accept: [application/json, text/javascript, */*; q=0.01]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+
+GET https://sfdataloader-load.muleion.com:443/api/connections//objects HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept-Language: es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3
+Cookie: __utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207; SESSION_ID=dbbbdb5b-e007-11e1-a586-67e4910feddd
+X-Requested-With: XMLHttpRequest
+Referer: https://sfdataloader-load.muleion.com/static/
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/json; charset=UTF-8
+Pragma: no-cache
+Cache-Control: no-cache
+Host: sfdataloader-load.muleion.com:443
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+LOCAL_CERTIFICATES: [[Ljava.security.cert.X509Certificate;@20195856]
+X-MULE_ENCODING: [UTF-8]
+Date: [Mon, 06 Aug 2012 20:47:09 GMT]
+#status#: [HTTP/1.1 401 Unauthorized]
+Content-Length: [27]
+http.status: [401]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.2.2]
+
+{"error":"Not Authorized."}

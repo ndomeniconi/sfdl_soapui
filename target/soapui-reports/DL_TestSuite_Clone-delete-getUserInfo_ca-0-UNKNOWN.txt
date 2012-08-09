@@ -1,0 +1,73 @@
+Status: UNKNOWN
+Time Taken: 1645
+Size: 1279
+Timestamp: Mon Aug 06 17:47:38 GMT-03:00 2012
+TestStep: getUserInfo ca
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr
+URL: https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr
+
+---------------- Request ---------------------------
+Host: [cs9-api.salesforce.com]
+Content-Length: [629]
+SOAPAction: [""]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Jakarta Commons-HttpClient/3.0]
+Connection: [Keep-Alive]
+Content-Type: [text/xml; charset=utf-8]
+
+POST https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr HTTP/1.1
+Accept-Encoding: gzip,deflate
+SOAPAction: ""
+User-Agent: Jakarta Commons-HttpClient/3.0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 629
+Host: cs9-api.salesforce.com
+Connection: Keep-Alive
+
+
+
+---------------- Response --------------------------
+Date: [Mon, 06 Aug 2012 20:47:39 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [601]
+Content-Encoding: [gzip]
+Content-Type: [text/xml; charset=utf-8]
+Server: []
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <getUserInfoResponse>
+         <result>
+            <accessibilityMode>false</accessibilityMode>
+            <currencySymbol>$</currencySymbol>
+            <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+            <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+            <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+            <orgHasPersonAccounts>false</orgHasPersonAccounts>
+            <organizationId>00DK0000005IPVrMAO</organizationId>
+            <organizationMultiCurrency>false</organizationMultiCurrency>
+            <organizationName>Mulesoft</organizationName>
+            <profileId>00ed0000000eNvIAAU</profileId>
+            <roleId xsi:nil="true"/>
+            <sessionSecondsValid>7200</sessionSecondsValid>
+            <userDefaultCurrencyIsoCode xsi:nil="true"/>
+            <userEmail>sfdl-all@mulesource.com</userEmail>
+            <userFullName>Test User10</userFullName>
+            <userId>005K0000000ZvOPIA0</userId>
+            <userLanguage>en_US</userLanguage>
+            <userLocale>en_US</userLocale>
+            <userName>sfdl-all@mulesource.test10</userName>
+            <userTimeZone>America/Los_Angeles</userTimeZone>
+            <userType>Standard</userType>
+            <userUiSkin>Theme3</userUiSkin>
+         </result>
+      </getUserInfoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

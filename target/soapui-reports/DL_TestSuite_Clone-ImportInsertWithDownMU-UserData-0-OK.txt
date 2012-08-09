@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Mon Aug 06 17:46:51 GMT-03:00 2012
+TestStep: UserData
+
+----------------- Messages ------------------------------
+Performed transfer [userSession]
+Performed transfer [userPwd]
+Performed transfer [tokenUser]
+----------------------------------------------------
+userSession transferred [[nicolas.mondada@mulesoft.com.test]] from [DataSourceAccounts.username] to [SessionPropeties.userSession]
+userPwd transferred [[Datal0ader]] from [DataSourceAccounts.pwd] to [SessionPropeties.userPwd]
+tokenUser transferred [[bM9WpXD6MgU3zHqH1l1OvJCGp]] from [DataSourceAccounts.token] to [SessionPropeties.userToken]

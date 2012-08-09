@@ -1,0 +1,23 @@
+Status: OK
+Time Taken: 10
+Size: 0
+Timestamp: Mon Aug 06 17:47:38 GMT-03:00 2012
+TestStep: clientSessionIdSoap
+
+----------------- Messages ------------------------------
+Performed transfer [sessionIDSoap]
+Performed transfer [userIdSoap]
+Performed transfer [serverUrlSoap]
+----------------------------------------------------
+sessionIDSoap transferred [[00DK0000005IPVr!AQ4AQPfTNXsCqvcBfnK.TiiYxjGIu_RZ.JP6crfoY7F4rSA4JY46i8krCvcCs2q592X0.F.Ek36MVTPuDW3WO1kqHotEOjBP]] from [login ca.ResponseAsXml] to [ClienAPISessionValues.sessionIDSoap]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:sessionId[1]
+userIdSoap transferred [[005K0000000ZvOPIA0]] from [login ca.ResponseAsXml] to [ClienAPISessionValues.userIdSoap]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:userId[1]
+serverUrlSoap transferred [[https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr]] from [login ca.ResponseAsXml] to [ClienAPISessionValues.serverUrlSoap]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:serverUrl[1]

@@ -1,0 +1,23 @@
+Status: OK
+Time Taken: 25
+Size: 0
+Timestamp: Mon Aug 06 17:47:37 GMT-03:00 2012
+TestStep: clientSessionIdSoap
+
+----------------- Messages ------------------------------
+Performed transfer [sessionIDSoap]
+Performed transfer [userIdSoap]
+Performed transfer [serverUrlSoap]
+----------------------------------------------------
+sessionIDSoap transferred [[null]] from [login.ResponseAsXml] to [ClienAPISessionValues.sessionIDSoap]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:sessionId[1]
+userIdSoap transferred [[null]] from [login.ResponseAsXml] to [ClienAPISessionValues.userIdSoap]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:userId[1]
+serverUrlSoap transferred [[null]] from [login.ResponseAsXml] to [ClienAPISessionValues.serverUrlSoap]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:serverUrl[1]

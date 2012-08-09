@@ -1,0 +1,10 @@
+Status: OK
+Time Taken: 1
+Size: 0
+Timestamp: Mon Aug 06 17:48:25 GMT-03:00 2012
+TestStep: nameTask
+
+----------------- Messages ------------------------------
+Performed transfer [numero]
+----------------------------------------------------
+numero transferred [[235]] from [Consecutivos.numero] to [SessionPropeties.nameId]

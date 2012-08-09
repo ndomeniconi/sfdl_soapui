@@ -1,0 +1,57 @@
+Status: UNKNOWN
+Time Taken: 1926
+Size: 665
+Timestamp: Mon Aug 06 17:47:35 GMT-03:00 2012
+TestStep: login
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 500
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: https://test.salesforce.com:443/services/Soap/c/25.0
+URL: https://test.salesforce.com:443/services/Soap/c/25.0
+
+---------------- Request ---------------------------
+Host: [test.salesforce.com:443]
+Content-Length: [661]
+SOAPAction: [""]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Jakarta Commons-HttpClient/3.0]
+Connection: [Keep-Alive]
+Content-Type: [text/xml; charset=utf-8]
+
+POST https://test.salesforce.com:443/services/Soap/c/25.0 HTTP/1.1
+Accept-Encoding: gzip,deflate
+SOAPAction: ""
+User-Agent: Jakarta Commons-HttpClient/3.0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 661
+Host: test.salesforce.com:443
+Connection: Keep-Alive
+
+
+
+---------------- Response --------------------------
+Date: [Mon, 06 Aug 2012 20:47:37 GMT]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [338]
+Content-Encoding: [gzip]
+Content-Type: [text/xml; charset=UTF-8]
+Server: []
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sf="urn:fault.enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>INVALID_LOGIN</faultcode>
+         <faultstring>INVALID_LOGIN: Invalid username, password, security token; or user locked out.</faultstring>
+         <detail>
+            <sf:LoginFault xsi:type="sf:LoginFault">
+               <sf:exceptionCode>INVALID_LOGIN</sf:exceptionCode>
+               <sf:exceptionMessage>Invalid username, password, security token; or user locked out.</sf:exceptionMessage>
+            </sf:LoginFault>
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>

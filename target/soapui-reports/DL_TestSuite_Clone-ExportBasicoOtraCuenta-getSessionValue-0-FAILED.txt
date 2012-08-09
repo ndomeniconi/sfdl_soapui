@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 29
+Size: 0
+Timestamp: Mon Aug 06 17:46:12 GMT-03:00 2012
+TestStep: getSessionValue
+Error:java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+
+----------------- Messages ------------------------------
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+error at line: 10

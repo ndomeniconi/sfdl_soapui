@@ -1,0 +1,48 @@
+Status: UNKNOWN
+Time Taken: 201
+Size: 218
+Timestamp: Mon Aug 06 17:47:45 GMT-03:00 2012
+TestStep: logout ca
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr
+URL: https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr
+
+---------------- Request ---------------------------
+Host: [cs9-api.salesforce.com]
+Content-Length: [573]
+SOAPAction: [""]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Jakarta Commons-HttpClient/3.0]
+Connection: [Keep-Alive]
+Content-Type: [text/xml; charset=utf-8]
+
+POST https://cs9-api.salesforce.com/services/Soap/c/25.0/00DK0000005IPVr HTTP/1.1
+Accept-Encoding: gzip,deflate
+SOAPAction: ""
+User-Agent: Jakarta Commons-HttpClient/3.0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 573
+Host: cs9-api.salesforce.com
+Connection: Keep-Alive
+
+
+
+---------------- Response --------------------------
+Date: [Mon, 06 Aug 2012 20:47:45 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [165]
+Content-Encoding: [gzip]
+Content-Type: [text/xml; charset=utf-8]
+Server: []
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com">
+   <soapenv:Body>
+      <logoutResponse/>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Mon Aug 06 17:46:59 GMT-03:00 2012
+TestStep: cookieSession
+
+----------------- Messages ------------------------------
+Performed transfer [sessionValueId]
+----------------------------------------------------
+sessionValueId transferred [[dbbbdb5b-e007-11e1-a586-67e4910feddd]] from [#TestCase#.sessionIdValue] to [SessionPropeties.sessionId]

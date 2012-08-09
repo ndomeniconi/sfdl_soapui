@@ -1,0 +1,60 @@
+Status: UNKNOWN
+Time Taken: 2377
+Size: 0
+Timestamp: Mon Aug 06 17:46:07 GMT-03:00 2012
+TestStep: login-init
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 401
+Method: POST
+HTTP Version: HTTP/1.1
+Endpoint: https://sfdataloader-load.muleion.com:443/api/login
+URL: https://sfdataloader-load.muleion.com:443/api/login
+
+---------------- Request ---------------------------
+Cookie: [__utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207]
+X-Requested-With: [XMLHttpRequest]
+Host: [sfdataloader-load.muleion.com:443]
+Content-Length: [100]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Accept-Language: [es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3]
+Accept-Encoding: [gzip,deflate]
+Referer: [https://sfdataloader-load.muleion.com/static/]
+Content-Type: [application/json; charset=UTF-8]
+Accept: [application/json, text/javascript, */*; q=0.01]
+
+POST https://sfdataloader-load.muleion.com:443/api/login HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept-Language: es-MX,es;q=0.8,en-us;q=0.5,en;q=0.3
+Cookie: __utma=126647057.1357077998.1341250386.1341258154.1341258207.4; __utmz=126647057.1341250386.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=126647057.1.10.1341258207
+X-Requested-With: XMLHttpRequest
+Referer: https://sfdataloader-load.muleion.com/static/
+Content-Type: application/json; charset=UTF-8
+Accept: application/json, text/javascript, */*; q=0.01
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 100
+Host: sfdataloader-load.muleion.com:443
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+LOCAL_CERTIFICATES: [[Ljava.security.cert.X509Certificate;@1c3ffae]
+X-MULE_ENCODING: [UTF-8]
+Date: [Mon, 06 Aug 2012 20:46:08 GMT]
+#status#: [HTTP/1.1 401 Unauthorized]
+Content-Length: [0]
+X-MULE_ENDPOINT: [jdbc://getUserIdBySalesforceId]
+X-MULE_SESSION: [rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAEWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wAD3NlY3VyaXR5Q29udGV4dHQAJ0xvcmcvbXVsZS9hcGkvc2VjdXJpdHkvU2VjdXJpdHlDb250ZXh0O3hwAXB0ACRiZGZmZGJiNC1lMDA3LTExZTEtYTU4Ni02N2U0OTEwZmVkZGRwc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW10AA9MamF2YS91dGlsL01hcDtMAAVtdXRleHQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAJG9yZy5tdWxlLnV0aWwuQ2FzZUluc2Vuc2l0aXZlSGFzaE1hcJ3R2e9nRc4AAwAAeHB3DD9AAAAAAAAQAAAAAHhxAH4ACXh4]
+http.status: [401]
+X-MULE_ROOT_MESSAGE_ID: [bdffdbb2-e007-11e1-a586-67e4910feddd]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.2.2]
